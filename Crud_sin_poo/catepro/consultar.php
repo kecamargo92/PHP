@@ -14,8 +14,8 @@
   <div> <!-- de aqui para abajo es solo vista -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-      <a class="navbar-brand text-while" href="../../index.html">
-        <img src="../../img/ibgi.png" height="40px" width="">
+      <a class="navbar-brand text-while" href="../index.html">
+        <img src="../ibgi.png" height="40px" width="">
       </a>
 
       <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
@@ -26,7 +26,7 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="nav-item active">
-            <a href="../../index.html" class="nav-link">Inicio</a>
+            <a href="../index.html" class="nav-link">Inicio</a>
           </li>
 
           <li class="nav-item active">

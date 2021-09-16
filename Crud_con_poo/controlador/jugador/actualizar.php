@@ -34,7 +34,7 @@ $resultadoEquipo = $objConexion->query($sql);
             <input type="date" name="fecha" value="<?php echo $resultado['fechanac_jug'] ?>" placeholder="fecha de nac" class="form-control"required />
             <input type="number" name="edad" value="<?php echo $resultado['edad_jug'] ?>" placeholder="edad" class="form-control"required />
             <input type="text" name="correo" value="<?php echo $resultado['correo_jug'] ?>" placeholder="correo" class="form-control"required />
-            <select name="equipo" value="<?php echo $resultado['equipo_id_eq'] ?>">
+            <select name="equipo">
                 <option>--Equipo--</option>
                 <?php
               while ($opciones = $resultadoEquipo->fetch_object())
